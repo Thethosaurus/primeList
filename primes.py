@@ -1,4 +1,4 @@
-number = raw_input("List Upper Bound?")
+number = int(raw_input("List Upper Bound?"))
 def isPrime(n):
     for i in range(n, n-1):
         if n % i == 0:
@@ -17,4 +17,4 @@ def primeList(n):
             print i
             primeArray.append(i)
 
-primeList(int(number));
+primeList (number);
